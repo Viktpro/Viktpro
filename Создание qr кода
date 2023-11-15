@@ -1,7 +1,7 @@
 import qrcode
 import numpy as np
 
-data = "https://waksoft.susu.ru"
+data = "https://play.google.com/store/apps/details?id=ru.sochisirius"
 
 qr = qrcode.QRCode(version=1, box_size=10, border=4)
 
