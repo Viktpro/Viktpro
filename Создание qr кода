@@ -1,0 +1,16 @@
+import qrcode
+import numpy as np
+
+data = "https://waksoft.susu.ru"
+
+qr = qrcode.QRCode(version=1, box_size=10, border=4)
+
+qr.add_data(data)
+
+qr.make()
+
+print("The shape of the QR image:", np.array(qr.get_matrix()).shape)
+
+img = qr.make_image(fill_color="white", back_color=
+
+img.save("waksoft.susu.ru_inversed.png")
