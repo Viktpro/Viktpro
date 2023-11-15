@@ -13,4 +13,4 @@ print("The shape of the QR image:", np.array(qr.get_matrix()).shape)
 
 img = qr.make_image(fill_color="white", back_color=
 
-img.save("waksoft.susu.ru_inversed.png")
+img.save("https://play.google.com/store/apps/details?id=ru.sochisirius_inversed.png")
